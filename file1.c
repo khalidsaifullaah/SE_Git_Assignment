@@ -1,8 +1,16 @@
 #include<stdio.h>
 
+void PrintFileName(){
+
+    printf("File 1");
+
+    return;
+}
 int main(){
 
-    printf("File 1")
+    // calling an auxiliary func to print file name
+    PrintFileName();
+
     return 0;
-    
+
 }
